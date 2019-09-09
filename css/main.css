@@ -1,0 +1,1531 @@
+.header {
+	width: 100%;
+	height: 142px;
+	position: relative;
+}
+
+.ht_w1200 {
+	height: 90px;
+	background: #FFF;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin: 0 -600px;
+	background: #FFFFFF;
+}
+.qq_mu {
+	width: 170px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin: -25px 0;
+	background-image: url(../img/header/qq_mu.png);
+	background-repeat: no-repeat;
+}
+.topnav {
+	width: auto;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	left: 198px;
+	text-align: center;
+}
+.tn{
+	height: 100%;
+	position: relative;
+	float: left;
+	line-height: 90px;
+	font-size: 18px;
+}
+.tn:not(.mu_hall) {
+	padding: 0 17px;
+}
+.mu_hall {
+	padding: 0 20px;
+	background: #31C27C;
+}
+.tn_l1 {
+	color: #FFF !important;
+}
+.mu_hall a:hover {
+	color: #FFFFFF !important;
+}
+.qiangtequan {
+	position: absolute;
+	top: 18px;
+	right: 0;
+}
+.client:hover .client_box {
+	display: block;
+}
+.client_box {
+	width: 160px;
+	height: 154px;
+	position: absolute;
+	background: #FFFFFF;
+	z-index: 999;
+	font-size: 12px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.35);
+	border-radius: 4px;
+	top: 68px;
+	display: none;
+}
+.client_box_con {
+	width: 100%;
+	height: 127px;
+	margin: 9px 0 18px;
+}
+.c_box_con {
+	position: relative;
+	width: 130px;
+	height: 22px;
+	padding: 5px 0;
+	margin-left: 30px;
+	line-height: 22px;
+}
+.cb_icon {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 10px;
+	left: -10px;
+}
+.cb_icon1 {
+	background-image: url(../img/icon/sprite_privilege2.png);
+	background-repeat: no-repeat;
+	background-size: 74px 130px;
+	background-position: 0 0;
+}
+.cb_icon2 {
+	background-image: url(../img/icon/sprite_privilege2.png);
+	background-repeat: no-repeat;
+	background-size: 74px 130px;
+	background-position: 0 -28px;
+}
+.cb_icon3 {
+	background-image: url(../img/icon/sprite_privilege2.png);
+	background-repeat: no-repeat;
+	background-size: 74px 130px;
+	background-position: 0 -56px;
+}
+.cb_download {
+	display: block;
+	margin: 6px auto 0;
+	width: 135px;
+	height: 25px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 25px;
+	background: #31C27C;
+	font-size: 12px;
+}
+.cb_download:hover {
+	background: #29AE70;
+    color: #FFFFFF !important;
+}
+
+.search {
+	width: 220px;
+	height: 38px;
+	position: absolute;
+	float: left;
+	top: 50%;
+	left: 696px;
+	margin: -19px 0;
+}
+.sea_text {
+	width: 175px;
+	height: 36px;
+	border-radius: 3px;
+	border: 1px solid #c9c9c9;
+	font-size: 14px;
+	line-height: 36px;
+	padding: 0 33px 0 10px;
+	color: #727272;
+}
+.sea_list {
+	position: absolute;
+	padding-top: 10px;
+	width: 218px;
+	height: auto;
+	border: 1px solid #C9C9C9;
+	border-top: 0;
+	background: #FFFFFF;
+	display: none;
+	z-index: 999;
+}
+.sea_hot_link {
+	width: 198px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 11px;
+}
+.num {
+	color: #FE5D42;
+}
+.name {
+	margin: 0 0 0 8px;
+}
+.data {
+	color: #9D9D9D;
+	float: right;
+}
+.sea_hot_link:hover {
+	background-color: #31C27C;
+}
+.sea_hot_link:hover span{
+	color: #FFFFFF;
+}
+.sea_history {
+	width: 198px;
+	height: 36px;
+	padding: 5px 11px;
+	line-height: 36px;
+}
+.sea_history {
+	color: #9D9D9D;
+	position: relative;
+}
+.sea_del {
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-top: 10px;
+	background-image: url(../img/icon/icon_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -90px -176px;
+	background-size: 180px 272px;
+	color: #808080;
+}
+.sea_del:hover {
+	background-image: url(../img/icon/icon_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -90px -192px;
+	background-size: 180px 272px;
+}
+.sea_text:focus {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.sea_text:focus~.sea_list{
+	display: block;
+}
+.sea_icon{
+	width: 37px;
+	height: 35px;
+	position: absolute;
+	float: right;
+	left: 182px;
+	top: 50%;
+	margin: -17px 0;
+	background: #fff;
+	border-width: 0 0 0 0 ;
+	color: #727272;
+}
+.sea_icon:hover {
+	color: #31C27C;
+}
+.h_right {
+	width: 264px;
+	height: 90px;
+	position: relative;
+	float: right;
+}
+.login {
+	line-height: 90px;
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	padding: 0 3px;
+}
+.pay_vip {
+	width: 91px;
+	height: 36px;
+	background: #31C27C;
+	padding: 0 9px;
+	float: left;
+	margin: 25px 0 0 10px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 13px;
+	border: 1px solid #31C27C;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+.pay_vip:hover {
+	background: #29AE70;
+	color: #FEFEFE;
+}
+.pay_moneybag {
+	width: 65px;
+	height: 36px;
+	border: 1px solid #c9c9c9;
+	background: #FFFFFF;
+	float: left;
+	font-size: 13px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+	padding: 0 9px;
+	margin: 25px 0 0 10px
+}
+.pay_moneybag:hover {
+	background-color: #ededed;
+}
+
+
+.hb_w1200 {
+	height: 51px;
+	border-top: 1px solid #f1f1f1;
+	position: relative;
+}
+.un_he_list {
+	float: left;
+	position: absolute;
+	margin-left: 230px;
+	line-height: 51px;
+}
+.un_he_item {
+	height: 51px;
+	float: left;
+	font-size: 15px;
+	margin-right: 47px;
+}
+#un_he_item1a {
+	color: #31C27C;
+}
+/*.un_he_list_con {
+	height: 51px;
+	float: left;
+	font-size: 15px;
+	margin-right: 47px;
+}
+.un_he_item:checked +label{
+	color: #31C27C;
+}
+.un_he_list_con:hover{
+	color: #31C27C;
+}*/
+
+.mu_intro {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.mi_tab {
+	height: 50px;
+}
+.mi_link {
+	width: 588px;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+}
+.mi_link_item:checked+label {
+	color: #31C27C;
+}
+.mi_item:hover {
+	color: #31C27C;
+}
+.mi_item {
+	height: 22px;
+	margin: 0 24px;
+	float: left;
+}
+/*#mi_item1 {
+	color: #31C27C;
+}*/
+.mi_list {
+	width: 1220px;
+	height: 310px; 
+	margin-bottom: 20px;
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.mu_list_img {
+	overflow: hidden;
+	position: relative;
+}
+.list_img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition-duration: 0.5s;
+}
+.mu_list_icon {
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 87px;
+	left: 87px;
+	opacity: 0;
+	transition-property: opacity,transform;
+	transition-duration: 0.5s;
+	z-index: -99;
+}
+.mu_list_img1 {
+	background-image: url(../img/封面图片/6.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mu_list_img2 {
+	background-image: url(../img/封面图片/8.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mu_list_img3 {
+	background-image: url(../img/封面图片/5.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mu_list_img4 {
+	background-image: url(../img/封面图片/12.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mu_list_img5 {
+	background-image: url(../img/封面图片/7.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.mod {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	transition-duration: 0.5s;
+}
+.list_img:hover .mod {
+	background: rgba(0,0,0,0.2);
+}
+.list_img:hover {
+	transform: scale(1.1);
+	/*opacity: 0.9;*/
+}
+.list_img:hover .mu_list_icon {
+	opacity: 1;
+	transform: scale(1.4);
+	z-index: 0;
+}
+
+.mi_left_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	left: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.mi_left_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.mi_w1200:hover .mi_left_icon {
+	left: -73px;
+}
+.mi_right_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	right: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.mi_right_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.mi_w1200:hover .mi_right_icon {
+	right: -74px;
+}
+.mu_list_item {
+	width: 224px;
+	height: 310px;
+	float: left;
+	margin-right: 20px;
+}
+.mu_list_box {
+	width: 224px;
+	height: 283px;
+}
+.mu_list_img {
+	width: 224px;
+	height: 224px;
+	margin-bottom: 15px;
+}
+.mi_point {
+	height: 38px;
+	text-align: center;
+}
+.mi_allp {
+	margin: 0 auto;
+	width: 56px;
+}
+.icon-dian {
+	width: 28px;
+	height: 18px;
+	margin: 0 auto;
+	float: left;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #E0E0E0;
+}
+.icon-dian:hover {
+	color:#AEAEAE;
+}
+input:checked+label {
+	color:#AEAEAE;
+}
+
+.newsongout {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -50px;
+}
+.ns_tab .bofang {
+	width: 75px;
+	height: 36px;
+	border: 1px solid #c9c9c9;
+	background: #FFFFFF;
+	float: left;
+	font-size: 13px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+	padding: 0 23px;
+	margin-top: -10px;
+	position: absolute;
+}
+.bofang .icon-bofang {
+	line-height: 36px;
+	font-size: 15px;
+	color: #989898;
+}
+.bofang:hover {
+	background-color: #ededed;
+}
+.ns_link {
+	height: 50px;
+	text-align: center;
+}
+.ns_item {
+	width: auto;
+	height: auto;
+	margin: 0 24px;
+}
+.ns_item:hover {
+	color: #31C27C;
+}
+.ns_link_item:checked+label {
+	color: #31C27C;
+}
+.ns_list {
+	width: 1230px;
+	height: 333px; 
+	margin-bottom: 20px;
+	position: relative;
+}
+.ns_left_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	left: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.ns_left_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.ns_w1200:hover .ns_left_icon {
+	left: -73px;
+}
+.ns_right_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	right: -147px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.ns_right_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.ns_w1200:hover .ns_right_icon {
+	right: -74px;
+}
+.ns_list_item {
+	width: 410px;
+	height: 111px;
+	float: left;
+}
+.ns_list_box {
+	width: 380px;
+	height: 86px;
+	float: left;
+	margin: 12px 30px 13px 0;
+	position: relative;
+}
+.ns_list_img {
+	width: 84px;
+	height: 84px;
+	margin-right: 14px;
+	float: left;
+}
+.ns_list_box {
+	overflow: hidden;
+	position: relative;
+}
+.list_img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition-duration: 0.5s;
+}
+.ns_list_icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 28px;
+	left: 28px;
+	opacity: 0;
+	transition-property: opacity,transform;
+	transition-duration: 0.5s;
+	z-index: -99;
+}
+.ns_list_img1 {
+	background-image: url(../img/新歌首发图片/1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img2 {
+	background-image: url(../img/新歌首发图片/2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img3 {
+	background-image: url(../img/新歌首发图片/3.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img4 {
+	background-image: url(../img/新歌首发图片/4&5.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img5 {
+	background-image: url(../img/新歌首发图片/4&5.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img6 {
+	background-image: url(../img/新歌首发图片/6.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img7 {
+	background-image: url(../img/新歌首发图片/7.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img8 {
+	background-image: url(../img/新歌首发图片/8.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ns_list_img9 {
+	background-image: url(../img/新歌首发图片/9.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list_img:hover {
+	transform: scale(1.1);
+	opacity: 0.9;
+}
+.list_img:hover .ns_list_icon {
+	opacity: 1;
+	transform: scale(1.6);
+	z-index: 0;
+}
+
+.ns_list_word {
+	width: 380px;
+	height: 65px;
+}
+.ns_list_name {
+	width: 200px;
+	height: 23px;
+	margin: auto;
+	padding: 21px 0 2px;
+}
+.ns_list_data {
+	width: 200px;
+}
+.ns_list_time {
+	line-height: 86px;
+	width: auto;
+	height: 86px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.ns_point {
+	height: 38px;
+	text-align: center;
+}
+.ns_allp {
+	margin: 0 auto;
+	width: 112px;
+}
+
+.ad-intro {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -100px;
+}
+.ad_w1200 {
+	
+}
+.ad_list {
+	width: 1220px;
+	height: 236px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.ad_left_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -10px 0;
+	left: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.ad_left_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.ad_w1200:hover .ad_left_icon {
+	left: -73px;
+}
+.ad_right_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -10px 0;
+	right: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.ad_right_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.ad_w1200:hover .ad_right_icon {
+	right: -74px;
+} 
+.ad_list_item {
+	width: 590px;
+	margin-right: 20px;
+	float: left;
+}
+.ad_point {
+	height: 38px;
+	text-align: center;
+}
+.ad_allp {
+	margin: 0 auto;
+	width: 84px;
+}
+
+.nd_tab {
+	position: relative;
+}
+.nd_out {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+}
+.nd_link {
+	height: 50px;
+	text-align: center;
+}
+.nd_item {
+	width: auto;
+	height: 22px;
+	margin: 0 24px;
+}
+.nd_item:hover {
+	color: #31C27C;
+}
+.nd_link_item:checked+label {
+	color: #31C27C;
+}
+.more {
+	width: 50px;
+	height: 21px;
+	position: absolute;
+	right: 0;
+}
+.nd_more {
+	top: 50%;
+	margin-top: -25px;
+}
+.more>.more_icon{
+	font-size: 14px !important;
+}
+.nd_list_w1200 {
+	height: 610px;
+}
+.nd_list {
+	width: 1220px;
+	height: 610px;
+
+}
+.nd_list_item {
+	width: 244px;
+	height: 283px;
+	padding-bottom: 25px;
+	float: left;
+}
+.nd_list_box {
+	width: 224px;
+	height: 283px;
+	margin-right: 20px;
+}
+.nd_list_img {
+	width: 224px;
+	height: 224px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.nd_list_box {
+	overflow: hidden;
+	position: relative;
+}
+.list_img {
+	transition-duration: 0.5s;
+}
+.nd_list_img1 {
+	background-image: url(../img/newdisk/1.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img2 {
+	background-image: url(../img/newdisk/2.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img3 {
+	background-image: url(../img/newdisk/3.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img4 {
+	background-image: url(../img/newdisk/4.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img5 {
+	background-image: url(../img/newdisk/5.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img6 {
+	background-image: url(../img/newdisk/6.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img7 {
+	background-image: url(../img/newdisk/7.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img8 {
+	background-image: url(../img/newdisk/8.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img9 {
+	background-image: url(../img/newdisk/9.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_img10 {
+	background-image: url(../img/newdisk/10.jpg);s
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nd_list_icon {
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 87px;
+	left: 87px;
+	opacity: 0;
+	transition-property: opacity,transform;
+	transition-duration: 0.5s;
+	z-index: -99;
+}
+.list_img:hover {
+	transform: scale(1.1);
+	opacity: 0.9;
+}
+.list_img:hover .nd_list_icon {
+	opacity: 1;
+	transform: scale(1.4);
+	z-index: 0;
+}
+.nd_list_name {
+	width: 224px;
+	height: 21px;
+}
+.nd_list_data {
+	width: 224px;
+	height: 21px;
+}
+
+.rangking-list {
+	position: relative;
+}
+.ranking_l {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -200px;
+}
+.title5 {
+	position: relative;
+}
+.rk_more {
+	top: 56px;
+}
+.rk_w1200 {
+	height: 670px;
+}
+.rk_list_item {
+	width: 224px;
+	height: 500px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.rk_list_item1 {
+	background-image: url(../img/background/排行榜.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+} 
+.rk_list_item2 {
+	background-image: url(../img/background/排行榜.jpg);
+	background-repeat: no-repeat;
+	background-position: -224px 0px;
+}
+.rk_list_item3 {
+	background-image: url(../img/background/排行榜.jpg);
+	background-repeat: no-repeat;
+	background-position: -448px 0px;
+}
+.rk_list_item4 {
+	background-image: url(../img/background/排行榜.jpg);
+	background-repeat: no-repeat;
+	background-position: -672px 0px;
+}
+.rk_list_item5 {
+	background-image: url(../img/background/排行榜.jpg);
+	background-repeat: no-repeat;
+	background-position: -896px 0px;
+}
+
+.rk_list_icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 136px;
+	left: 50%;
+	margin: 0 -15px;
+	opacity: 0;
+	transition-property: opacity,transform;
+	transition-duration: 0.5s;
+	z-index: -99;
+}
+.rk_list_title {
+	width: 200px;
+	height: 57px;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	top: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+.df {
+	width: 66px;
+	height: 22px;
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+	top:0;
+	margin:  0 auto 9px;
+}
+.top_tit {
+	height: 36px;
+    line-height: 1;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+}
+.min_bf1 {
+	width: 30px;
+	height: 0px;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	position: absolute;
+	left: 50%;
+	margin: 0 -15px;
+	top: 150px;
+}
+.rk_list_item:hover .rk_list_icon {
+	opacity: 1;
+	transform: scale(1.6);
+	z-index: 99;
+}
+.rk_list_item:hover>.min_bf1 {
+	opacity: 0;
+}
+.song_list {
+	width: 164px;
+	height: 222px;
+    position: absolute;
+	top: 188px;
+    left: 50%;
+	margin-left: -82px;
+}
+.song_list_item {
+	position: relative;
+	margin-bottom: 27px;
+}
+.rk_list {
+	width: 1220px;
+}
+.rk_list_num {
+	position: absolute;
+}
+.rk_list_con {
+	width: 149px;
+	height: 57px;
+	margin: 0 0 27px 15px;
+}
+.rk_song_name {
+	width: 149px;
+	height: 21px;
+	margin-bottom: 5px;
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+}
+.rk_song_singer {
+	width: 149px;
+	height: 21px;
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+	line-height: 21px;
+}
+.rk_song_singer {
+	line-height: 21px;
+}
+
+.rk_list_num,
+.song_list,
+.rk_list a{
+	color: #fff;
+}
+.rk_list a:hover {
+	color: #fff !important;
+}
+
+.mv_tit {
+	background-image: url(../img/大标题/新歌首发等.png);
+	background-repeat: no-repeat;
+	background-position: 0 -250px;
+}
+.mv_link {
+	height: 50px;
+	text-align: center;
+}
+.mv_link_item:checked+label {
+	color: #31C27C;
+}
+.mv_item {
+	font-size: 15px;
+	margin: 0 24px;
+}
+.mv_item:hover {
+	color: #31C27C;
+}
+.mv_w1200 {
+	height: 670px;
+}
+/* .mv_list {
+	width: 1220px;
+	height: 480px;
+	position: relative;
+	background: pink;
+} */
+.mv_left_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	left: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.mv_left_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.mv_list:hover .mv_left_icon {
+	left: -73px;
+}
+.mv_right_icon {
+	width: 73px;
+	height: 108px;
+	background: rgba(51,51,51,0.1);
+	position: absolute;
+	top: 50%;
+	margin: -54px 0;
+	right: -146px;
+	text-align: center;
+	line-height: 108px;
+	font-size: 48px !important;
+	color: #333333;
+	transition-duration: 0.5s;
+}
+.mv_right_icon:hover {
+	background: rgba(51,51,51,0.2);
+}
+.mv_list:hover .mv_right_icon {
+	right: -74px;
+} 
+.mv_list {
+	width: 1220px;
+	height: 463px;
+	position: relative;
+}
+.mv_list_item {
+	width: 244px;
+	height: 232px;
+	float: left;
+}
+.mv_list_box {
+	width: 224px;
+	height: 206px;
+	margin-right: 20px;
+}
+.mv_list_img {
+	width: 224px;
+	height: 126px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.list_img {
+	transition-duration: 0.5s;
+}
+.mv_list_img1 {
+	background-image: url(../img/mv/1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img2 {
+	background-image: url(../img/mv/2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img3 {
+	background-image: url(../img/mv/3.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img4 {
+	background-image: url(../img/mv/4.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img5 {
+	background-image: url(../img/mv/5.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img6 {
+	background-image: url(../img/mv/6.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img7 {
+	background-image: url(../img/mv/7.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img8 {
+	background-image: url(../img/mv/8.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img9 {
+	background-image: url(../img/mv/9.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_img10 {
+	background-image: url(../img/mv/10.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mv_list_icon {
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 43px;
+	left: 87px;
+	opacity: 0;
+	transition-property: opacity,transform;
+	transition-duration: 0.5s;
+	z-index: -99;
+}
+.list_img:hover {
+	transform: scale(1.1);
+	opacity: 0.9;
+}
+.list_img:hover .mv_list_icon {
+	opacity: 1;
+	transform: scale(1.4);
+	z-index: 0;
+}
+.mv_list_name {
+	width: 185px;
+}
+.mv_point {
+	height: 38px;
+	text-align: center;
+}
+.mv_allp {
+	width: 112px;
+	margin: 0 auto;
+}
+.footer{
+	width: 100%;
+	height: 589px;
+	background: #323232;
+}
+.footer {
+	font-size: 15px;
+	color: #999;
+}
+.d_list_item a,
+.p_list_item a,
+.l_list_item a,
+.o_list_item a,
+.g_list_item a{
+	font-size: 14px;
+	color: #999;
+}
+.f_infor {
+	position: relative;
+	height: 411px;
+	padding-bottom: 45px;
+}
+.f_download {
+	position: absolute;
+	width: 365px;
+	height: 229px;
+	left: 10px;
+}
+.f_title {
+	padding: 80px 0 46px;
+}
+.f_list_item {
+	/* position: absolute; */
+	height: 81px;
+	text-align: center;
+	float: left;
+}
+.d_list_item1 {
+	width: 95px;
+	margin-left: -29px;
+} 
+.f_item {
+	height: 48px;
+	margin: 0 29px 12px;
+}
+.d_item1 {
+	width: 39px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.d_list_item1:hover .d_item1 {
+	background-position: 0px -49px;
+}
+.d_list_item2 {
+	width: 104px;
+}
+.d_item2 {
+	width: 47px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -91px 0px;
+}
+.d_list_item2:hover .d_item2 {
+	background-position: -91px -49px;
+}
+.d_list_item3 {
+	width: 95px;
+}
+.d_item3 {
+	width: 37px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -190px 0px;
+}
+.d_list_item3:hover .d_item3 {
+	background-position: -190px -49px;
+}
+.d_list_item4 {
+	width: 95px;
+}
+.d_item4 {
+	width: 37px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -275px 0px;
+}
+.d_list_item4:hover .d_item4 {
+	background-position: -275px -49px;
+}
+.f_product {
+	position: absolute;
+	width: 304px;
+	left: 476px;
+}
+.p_list_item{
+	margin-bottom: 18px;
+	float: left;
+}
+.p_list_item1 {
+	width: 99px;
+	margin-left: -23px;
+}
+.p_item1 {
+	width: 41px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -370px 0px;
+}
+.p_list_item1:hover .p_item1 {
+	background-position: -370px -49px;
+}
+.p_list_item2 {
+	width: 95px;
+}
+.p_item2 {
+	width: 37px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -460px 0px;
+}
+.p_list_item2:hover .p_item2 {
+	background-position: -460px -49px;
+}
+.p_list_item3 {
+	width: 98px;
+}
+.p_item3 {
+	width: 40px;
+	background-image: url(../img/icon/footer.png);
+	background-repeat: no-repeat;
+	background-position: -560px 0px;
+}
+.p_list_item3:hover .p_item3 {
+	background-position: -560px -49px;
+}
+.p_list_item5 {
+	margin-left: 30px;
+}
+.f_link {
+	position: absolute;
+	width: 300px;
+	height: 280px;
+	right: 0;
+}
+.l_list_item,
+.o_list_item,
+.g_list_item{
+	width: 100px;
+	height: 21px;
+	margin-bottom: 12px;
+	float: left;
+}
+.f_other {
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	top: 230px;
+}
+.f_group {
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	top: 310px;
+	left: 476px;
+}
+.f_g_title {
+	padding-bottom: 46px;
+}
+
+.f_copy {
+	height: 84px;
+	padding:  24px 0;
+}
+.c_line {
+	text-align: center;
+	line-height: 28px;
+}
+.f_copy a,
+.f_copy p{
+	color: #999;
+	font-size: 12px;
+}
+.navri {
+	width: 40px;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 160px;
+	right: 50px;
+
+}
+.bnr {
+	width: 38px;
+	height: 38px;
+	border: 1px solid #C9C9C9;
+	margin-bottom: 2px;
+	background-color: #FFFFFF; 
+	position: absolute;
+}
+.bnr:hover {
+	background-color: #c9c9c9; 
+}
+.bnr1 {
+	position: absolute;
+}
+.navri:hover .bnr1 {
+	display: block;
+}
+.bnr2 {
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	top: 42px;
+}
+.bnr2:hover a {
+	color: #31C27C; 
+}
+.bnr3 {
+	top: 84px;
+}
+.zhiding {
+	margin: 14px 9px;
+	background-repeat: no-repeat;
+	background-image: url(../img/icon/icon_sprite.png);
+	width: 20px;
+	height: 20px;
+	background-position: -160px 0px;
+
+}
+.mybofang {
+	margin: 10px 9px;
+	background-repeat: no-repeat;
+	background-image: url(../img/icon/icon_sprite.png);
+	width: 20px;
+	height: 20px;
+	background-position: -180px 0px;
+}
+.kehuduan-download {
+	position: fixed;
+	width: 144px;
+	height: 97px;
+	padding: 18px;
+    top: 164px;
+    right: 40px;
+    z-index: 1001;
+    padding: 18px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.07);
+    background-color: #fff;
+	text-align: center;
+}
+.kd_qq {
+	margin: 0 21px 9px;
+}
+.kd_con {
+	margin-bottom: 10px;
+    font-size: 16px;
+    color: #a6a6a6;
+    text-align: center;
+}
+.kd_buttom {
+	width: 130px;
+	height: 26px;
+	background: #31C27C;
+	color: #FFFFFF;
+	line-height: 26px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 13px;
+	margin: 0 auto;
+}
+.kd_buttom:hover {
+	color: #FFFFFF !important;
+	background: #29AE70;
+}
+

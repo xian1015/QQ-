@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #000;
+	background-color: #fff;
+	font-size: 14px;
+	font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+
+/* a:not(.pay_vip):link {
+	color: black;
+}
+
+a:not(.pay_vip):visited {
+	color: black;
+} */
+
+a:not(.pay_vip):not(.sea_hot):not(.point):hover {
+	color: #31C27C;
+}
+
+
+ul {
+	list-style: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input,
+textarea,
+select,
+a:focus {
+	outline: none;
+}
+
+.w1200 {
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+
+.list_other {
+	color: #999;
+	font-size: 14px;
+}
+input:not(.sea_text):not(.sea_icon) {
+	display: none;
+}
+.bg {
+	background-image: url(../img/background/背景颜色.jpg);
+	background-size: contain;
+	overflow: hidden;
+}
+.title {
+	height: 40px;
+	padding: 50px 0 24px 0;
+}
+.title_item {
+	width: 196px;
+	height: 40px;
+	margin: auto;
+}
+label {
+	font-size: 15px;
+}
+a:not(.l_item),
+p,
+span {
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+}
