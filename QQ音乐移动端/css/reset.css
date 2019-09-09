@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 0.28rem;
+	line-height: 1.5;
+    font-family: "hiragino sans gb", arial;
+    color: #000;
+    /*background-image: url(../img/background/背景颜色.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+}
+
+a:hover {
+	
+}
+
+
+ul {
+	list-style: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input,
+textarea,
+select,
+a:focus {
+	outline: 0;
+}
+
+.w1200 {
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+
+.list_other {
+	
+}
+
+.header {
+	width: 6rem;
+	height: 1.6rem;
+	position: relative;
+}
+.top_box {
+	width: 6rem;
+	height: 1.6rem;
+	padding: 0 0.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background: #fff;
+	z-index: 999;
+}
+.h_title {
+	width: 2.6rem;
+	height: 0.7rem;
+}
+.h_title>img {
+	width: 100%;
+	height: 100%;
+}
+.h_download {
+	width: 1.12rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	padding: 0 0.2rem;
+	font-size: 0.28rem;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 0.5rem;
+}
+
+.nav {
+	width: 100%;
+	height: 0.76rem;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content:space-around;
+	background: #FEFEFE;
+	border-top: 0.04rem solid #f3f3f3;;
+}
+.n_list_item {
+	line-height: 0.4rem;
+	width: auto;
+	font-size: 0.32rem;
+	padding: 0.16rem 0.68rem;
+	text-align: center;
+	overflow: hidden;
+}
+a.checked {
+	color: #31c27c;
+	position: relative;
+}
+a.checked::after{
+	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.04rem;
+    background: #31c27c;
+}
+a,
+p,
+span {
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+}
+.img100 {
+	width: 100%;
+	height: 100%;
+}

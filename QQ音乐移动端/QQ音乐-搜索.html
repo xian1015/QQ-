@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/searchmain.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1297604_1hve42p40ky.css" />
+		<script type="text/javascript">
+			function init() {
+				var width = document.documentElement.clientWidth;
+				//动态设置设备的html字体大小
+				document.documentElement.style.fontSize = width / 6.4 + 'px';
+			}
+
+			init()
+			//当屏幕宽度变化时
+			window.addEventListener('resize', init)
+			//当切换横竖屏时
+			window.addEventListener('orientationchange', init)
+		</script>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="top_box">
+				<div class="h_title">
+					<img src="img/h_title/qq_mu.png" />
+				</div>
+				<div class="h_download">
+					<a href="#">下载APP</a>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<a href="QQ音乐-index.html" class="n_list_item intro">推荐</a>
+			<a href="QQ音乐-排行榜.html" class="n_list_item rankinglist">排行榜</a>
+			<a href="QQ音乐-搜索.html" class="n_list_item search checked">搜索</a>
+		</div>
+		<div class="search_box">
+			<div class="search_bar">
+				<div class="search_bar_con">
+					<input class="search_input" type="text" placeholder="搜索歌曲、歌词、专辑" />
+					<span class="iconfont icon-sousuo" ></span>
+					<span class="iconfont"></span>
+					<div class="quxiao">取消</div>
+					<div class="mod_hottag"></div>
+				</div>
+			</div>
+			<div class="hot_search">
+				<p class="hs_tit">热门搜索</p>
+				<div class="hs_tag">
+					<a href="#" class="tag_item tag_item1">明日之子</a>
+					<a href="#" class="tag_item">SWEET BUT PSYCHO</a>
+					<a href="#" class="tag_item">最远的你是我最近的爱</a>
+					<a href="#" class="tag_item">我的朋友</a>
+					<a href="#" class="tag_item">你的酒馆对我打了烊</a>
+					<a href="#" class="tag_item">亲爱的,热爱的</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

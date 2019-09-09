@@ -1,0 +1,94 @@
+body {
+	background: #FFFFFF;
+}
+.search_box {
+	width: 100%;
+	height: 4.72rem;
+	
+}
+.search_bar {
+	width: 6rem;
+	height: 0.72rem;
+	padding: 0.2rem;
+	background: #f3f3f3;
+}
+.search_bar_con {
+	position: relative;
+	width: 5.06rem;
+	height: 0.4rem;
+	padding: 0.16rem 0.24rem 0.16rem 0.7rem;
+	background: #fff;
+	color: rgba(0,0,0,0.3);
+	border-radius: 0.06rem;
+}
+.search_input {
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color: rgba(0,0,0,0.3);
+	border: none;
+}
+.icon-sousuo {
+	position: absolute;
+	left: 0.20rem;
+	top: 0.12rem;
+}
+.quxiao {
+	text-align: center;
+	width: 0.7rem;
+	padding: 0 0.2rem;
+	height: 0.72rem;
+	line-height: 0.72rem;
+	display: none;
+	color: #555;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #f3f3f3;
+}
+.mod_hottag {
+	width: 100%;
+	height: 3.6rem;
+	background: #FFFFFF;
+	position: absolute;
+	bottom: -3.8rem;
+	left: 0;
+	display: none;
+}
+.search_input:focus~.quxiao {
+	display: block;
+}
+.search_input:focus~.mod_hottag {
+	display: block;
+}
+.hot_search {
+	width: 5.8rem;
+	height: 3.1rem;
+	padding: 0.3rem 0.3rem 0.2rem;
+}
+
+.hs_tit {
+	width: 100%;
+	color: rgba(0,0,0,0.6);
+	margin-bottom: 0.16rem;
+	font-weight: 700;
+}
+.hs_tag {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tag_item {
+	height: 0.6rem;
+	padding: 0 0.2rem;
+	border: 1px solid rgba(0,0,0,0.6);
+	text-align: center;
+	line-height: 0.6rem;
+	border-radius: 0.3rem;
+	margin-bottom: 0.2rem;
+	margin-right: 0.28rem;
+}
+.tag_item1 {
+	color: #fc4524;
+	border-color: #fc4524;
+}
